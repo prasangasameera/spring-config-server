@@ -1,0 +1,13 @@
+server:
+  port : 8191
+  greeting: Hello from service 1
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/prasangasameera/spring-cloud-config-store
+          username: prasangasameera
+          password: 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
+          search-paths:
+            - "*-service"
