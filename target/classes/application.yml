@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/prasangasameera/spring-cloud-config-store
-          username:
-          password:
+          username: prasangasameera
+          password: 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
           search-paths:
             - "*-service"
